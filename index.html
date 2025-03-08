@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator in HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" class="display" id="input" />
+      <div class="buttons">
+      <button id="clR" onclick="clearAll()">AC</button>
+
+      <button id="btnD" onclick="append('/')">/</button>
+      <button id="btnP" onclick="append('+')">+</button>
+      <button id="btnE" onclick="equalz()">=</button>
+      <button id="btn1" onclick="append('1')">1</button>
+      <button id="btn2" onclick="append('2')">2</button>
+      <button id="btn3" onclick="append('3')">3</button>
+      <button id="btnM" onclick="append('-')">-</button>
+      <button id="btn4" onclick="append('4')">4</button>
+      <button id="btn5" onclick="append('5')">5</button>
+      <button id="btn6" onclick="append('6')">6</button>
+      <button id="btnMu" onclick="append('*')">*</button>
+      <button id="btn7" onclick="append('7')">7</button>
+      <button id="btn8" onclick="append('8')">8</button>
+      <button id="btn9" onclick="append('9')">9</button>
+      <button id="btnP" onclick="append('%')">%</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>
